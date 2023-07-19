@@ -1,0 +1,7 @@
+discord
+discord.ext
+commands
+anyncio
+datetime
+timedelta
+random
