@@ -3,6 +3,7 @@ from discord.ext import commands
 import asyncio
 from datetime import datetime, timedelta
 import random
+import os
 
 intents = discord.Intents.default()
 intents.typing = False
@@ -125,5 +126,5 @@ async def 가위바위보(ctx):
 
 
 
-
-bot.run('ODkyNjc3ODA5MDkxMjY0NTUy.GMDIeE.K_qKd1DqJS9fh9LcvYcfx39Jkei7r08PVBUhak')
+access-token = os.environ["BOT_TOKEN]
+bot.run(access-token)
